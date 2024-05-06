@@ -1,7 +1,7 @@
 on: 
   push:
      branches:
-        -main
+        - main
 name: 🚀 Deploy website on push
 jobs:
   web-deploy:
@@ -17,4 +17,4 @@ jobs:
         server: ftpupload.net
         username: if0_36496460
         password: 8W2WZI9rbQ
-        server-dir: /home/vol7_4/infinityfree.com/if0_36496460
+        server-dir: /home/vol7_4/infinityfree.com/if0_36496460/
